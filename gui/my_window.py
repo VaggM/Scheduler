@@ -61,8 +61,8 @@ class MyWindow(GuiWindow):
                 break
             elif event == 'complete':
                 completion = self._complete()
-                if completion:
-                    break
+                # if completion:
+                #    break
             elif event == 'filename':
                 try:
                     filename = values['filename']

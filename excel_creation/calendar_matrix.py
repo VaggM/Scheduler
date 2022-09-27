@@ -6,7 +6,12 @@ class SpaceTakenError(Exception):
 class CalendarMatrix:
     """Class to keep the matrix that will be written into an Excel"""
 
-    def __init__(self, time_start=9, time_end=21, days=('Δευτέρα', 'Τρίτη', 'Τετάρτη', 'Πέμπτη', 'Παρασκευή')):
+    def __init__(
+            self,
+            time_start=8,
+            time_end=22,
+            days=('Δευτέρα', 'Τρίτη', 'Τετάρτη', 'Πέμπτη', 'Παρασκευή', 'Σάββατο')
+    ):
         """Initialize base matrix and needed variables"""
         # Variables
         self.calendar = []
@@ -58,6 +63,7 @@ class CalendarMatrix:
         x = 0
         y = 0
         day = self.days[day - 1]
+
         start = time
         # Find day
         for col in self.calendar[0]:
@@ -77,7 +83,7 @@ class CalendarMatrix:
             for i in range(lasting):
                 if self.calendar[y + i][x] != '':
                     raise SpaceTakenError
-                # Free space found, writing lesson
+            # Free space found, writing lesson
             for i in range(lasting):
                 self.calendar[y + i][x] = lesson_text
         except SpaceTakenError:
@@ -97,8 +103,8 @@ class CalendarMatrix:
 
     def find_width_height(self):
         """Set width and height"""
-        self.column_width = 23
-        self.row_height = 40
+        self.column_width = 21
+        self.row_height = 38
 
     def get_merge_cells(self):
         """Find duplicates to merge them after"""
@@ -181,3 +187,14 @@ class CalendarMatrix:
         # Start deleting rows
         for index, row_num in enumerate(rows_to_delete):
             self.calendar.remove(self.calendar[row_num+index])
+
+    def check_saturday(self):
+        """Removes Saturday if unused"""
+        remove = True
+        for row in self.calendar[1:]:
+            if row[-1] != '' and self.calendar[0][-1] == 'Σάββατο':
+                remove = False
+
+        if remove:
+            for row in self.calendar:
+                del row[-1]

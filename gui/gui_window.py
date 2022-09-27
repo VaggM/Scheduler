@@ -33,7 +33,7 @@ class GuiWindow:
 
     def new_browser(self):
         """Add new browse button element to line stack"""
-        working_directory = os.getcwd()
+        working_directory = os.getcwd() + "\\urls"
         self.stack.append(sg.FileBrowse(button_text='Αναζήτηση', initial_folder=working_directory))
 
     def new_textfield(self, key, disabled=False):

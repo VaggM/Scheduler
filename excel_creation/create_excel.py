@@ -19,6 +19,7 @@ def create_excel_schedule(lessons):
     # example: cldr.writeLesson('Κυκλώματα ΙΙ\nΤσεκούρας Γεώργιος\nZB001', 'Παρασκευή', '15', 3)
 
     # Fix the saved calendar
+    cldr.check_saturday()
     cldr.empty_removal()
     cldr.empty_removal_reverse()
     cldr.find_width_height()
@@ -27,6 +28,13 @@ def create_excel_schedule(lessons):
     # Excel edit
     workbook = xlsxwriter.Workbook('Calendar.xlsx')
     worksheet = workbook.add_worksheet()
+
+    # Landscape orientation
+    worksheet.set_landscape()
+    # A4
+    worksheet.set_paper(9)
+    # Margins
+    worksheet.set_margins(left=0.7, right=0.7, top=0.7, bottom=0.7)
 
     # background colors
     # (0, 0)
