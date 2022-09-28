@@ -1,4 +1,5 @@
 import PySimpleGUI as sg
+import os
 import xlsxwriter.exceptions
 
 from gui.gui_window import GuiWindow
@@ -19,10 +20,14 @@ class MyWindow(GuiWindow):
         self.lessons = []
         self.names = []
 
-        # Get filename and its data
-        self.new_text('Επιλογή αρχείου: ')
-        self.new_textfield('filename', disabled=True)
-        self.new_browser()
+        # Add blank line
+        self.new_text('')
+        self.add_line()
+
+        # Get all available files within urls folder
+        self.new_text('Διαθέσιμα προγράμματα: \t')
+        self._get_available_urls()
+        self.new_combo_list(self.named_urls, key='urls')
         self.add_line()
 
         # Add blank line
@@ -52,6 +57,46 @@ class MyWindow(GuiWindow):
         # Create window
         self.create_window()
 
+    def _get_available_urls(self):
+        """Get all file directories within urls folder"""
+        self.available_urls = []
+        self.named_urls = []
+        directory = os.getcwd() + "\\urls"
+        files = os.listdir(directory)
+        for file in files:
+            self._formed_name(file)
+            self.available_urls.append(directory + "\\" + file)
+
+    def _formed_name(self, name):
+        """Create a formed name to display to the user for each url file"""
+        # from "eee.spring.2022-2023"
+        # to "Εαρινό εξάμηνο 2022-2023, Τμήμα Ηλεκτρολόγων και Ηλεκτρονικών Μηχανικών
+        translates = [
+            ['eee',     'Ηλεκτρολόγων και Ηλεκτρονικών Μηχανικών'],
+            ['ba',      'Διοίκησης Επιχειρήσεων'],
+            ['tourism',  'Διοίκησης Τουρισμού'],
+        ]
+        part1 = name.find('.')
+        part1 = name[:part1]
+        for translate in translates:
+            if part1 == translate[0]:
+                part1 = translate[1]
+                break
+
+        name = name[name.find('.')+1:]
+        part2 = name.find('.')
+        part2 = name[:part2]
+        if part2 == 'winter':
+            part2 = 'Χειμερινό'
+        elif part2 == 'spring':
+            part2 = 'Εαρινό'
+
+        name = name[name.find('.')+1:]
+        part3 = name[:name.find('.')]
+
+        output = f" {part2} εξάμηνο {part3}, Τμήμα {part1}"
+        self.named_urls.append(output)
+
     def main(self):
         """Main method handling window events"""
         # Events correspond to keys
@@ -60,16 +105,17 @@ class MyWindow(GuiWindow):
             if event == sg.WIN_CLOSED or event == "Exit":
                 break
             elif event == 'complete':
-                completion = self._complete()
-                # if completion:
-                #    break
-            elif event == 'filename':
+                self._complete()
+            elif event == 'urls':
                 try:
-                    filename = values['filename']
+                    formed_name = values['urls']
+                    index = self.named_urls.index(formed_name)
+                    filename = self.available_urls[index]
                     self._explore_file(filename)
                     self._list1_fill()
+                    self._list2_empty()
                 except ValueError:
-                    sg.Popup('Λάθος αρχείο!', font=(50, 15), title='Error')
+                    sg.Popup('Υπάρχει λάθος με το συγκεκριμένο αρχείο!', font=(50, 15), title='Error')
             elif event == 'list1':
                 self._list2_add(values['list1'])
             elif event == 'list2':
@@ -94,13 +140,18 @@ class MyWindow(GuiWindow):
         self.window['list1'].Update(values=self.lessons)
         self.text_update('text1', f"\t\tΔιαθέσιμα μαθήματα: {len(self.lessons)}")
 
+    def _list2_empty(self):
+        """Empty list2"""
+        self.names = []
+        self.window['list2'].Update(values=self.names)
+        self.text_update('text2', f"\t\tΕπιλεγμένα μαθήματα: {len(self.names)}")
+
     def _list2_add(self, names):
         """Add names to list2 from list1 and update window"""
         for name in names:
             if name not in self.names:
                 self.names.append(name)
                 self.window['list2'].Update(values=self.names)
-
                 self.text_update('text2', f"\t\tΕπιλεγμένα μαθήματα: {len(self.names)}")
 
     def _list2_remove(self, names):
@@ -108,7 +159,6 @@ class MyWindow(GuiWindow):
         for name in names:
             self.names.remove(name)
             self.window['list2'].Update(values=self.names)
-
             self.text_update('text2', f"\t\tΕπιλεγμένα μαθήματα: {len(self.names)}")
 
     def _complete(self):
@@ -117,10 +167,8 @@ class MyWindow(GuiWindow):
             try:
                 self._excel_creation()
                 sg.Popup('Το Excel δημιουργήθηκε επιτυχώς!', font=(50, 15), title='Complete')
-                return True
             except xlsxwriter.exceptions.FileCreateError:
                 sg.Popup('Κλείσε το παλιό Excel πρώτα!', font=(50, 15), title='Error')
-                return False
         elif len(self.names) == 0:
             sg.Popup('Διάλεξε ένα μάθημα πρώτα!', font=(50, 15), title='Error')
         elif len(self.lessons) == 0:

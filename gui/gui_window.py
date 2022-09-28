@@ -22,6 +22,9 @@ class GuiWindow:
         """Add new button element to line stack"""
         self.stack.append(sg.Button(text, size=size, key=key, visible=visible))
 
+    def new_combo_list(self, texts, key):
+        self.stack.append(sg.Combo(texts, key=key, enable_events=True))
+
     def new_radio(self, text, key):
         """Add new radio button element to line stack"""
         key = str(key)

@@ -1,5 +1,6 @@
 import xlsxwriter
 from excel_creation.calendar_matrix import CalendarMatrix
+import os
 
 
 def create_excel_schedule(lessons):
@@ -25,8 +26,18 @@ def create_excel_schedule(lessons):
     cldr.find_width_height()
     cldr.get_merge_cells()
 
+    working_dir = os.getcwd()
+    file_names = os.listdir(working_dir)
+    i = 0
+    while True:
+        filename = f"Schedule({i}).xlsx"
+        if filename in file_names:
+            i += 1
+        else:
+            break
+
     # Excel edit
-    workbook = xlsxwriter.Workbook('Calendar.xlsx')
+    workbook = xlsxwriter.Workbook(filename)
     worksheet = workbook.add_worksheet()
 
     # Landscape orientation
