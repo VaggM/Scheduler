@@ -20,6 +20,9 @@ class MyWindow(GuiWindow):
         self.lessons = []
         self.names = []
 
+        # Data for translating file names
+        self._get_translations()
+
         # Add blank line
         self.new_text('')
         self.add_line()
@@ -57,6 +60,49 @@ class MyWindow(GuiWindow):
         # Create window
         self.create_window()
 
+    def _get_translations(self):
+        """Translate codes into department names"""
+        self.translations = [
+            # ΣΧΟΛΗ ΔΗΜΟΣΙΑΣ ΥΓΕΙΑΣ
+            ['pch',         'Δημόσιας και Κοινοτικής Υγείας'],
+            ['php',         'Πολιτικών Δημόσιας Υγείας'],
+
+            # ΣΧΟΛΗ ΔΙΟΙΚΗΤΙΚΩΝ, ΟΙΚΟΝΟΜΙΚΩΝ & ΚΟΙΝΩΝΙΚΩΝ ΕΠΙΣΤΗΜΩΝ
+            ['ecec',        'Αγωγής και Φροντίδας στην Πρώιμη Παιδική Ηλικία'],
+            ['alis',        'Αρχειονομίας, Βιβλιοθηκονομίας και Συστημάτων Πληροφόρησης'],
+            ['ba',          'Διοίκησης Επιχειρήσεων'],
+            ['tourism',     'Διοίκησης Τουρισμού'],
+            ['sw',          'Κοινωνικής Εργασίας'],
+            ['accfin',      'Λογιστικής και Χρηματοοικονομικής'],
+
+            # ΣΧΟΛΗ ΕΠΙΣΤΗΜΩΝ ΤΡΟΦΙΜΩΝ
+            ['fst',         'Επιστήμης και Τεχνολογίας Τροφίμων'],
+            ['wvbs',        'Επιστημών Οίνου, Αμπέλου και Ποτών'],
+
+            # ΣΧΟΛΗ ΕΠΙΣΤΗΜΩΝ ΥΓΕΙΑΣ & ΠΡΟΝΟΙΑΣ
+            ['bisc',        'Βιοϊατρικών Επιστημών'],
+            ['ot',          'Εργοθεραπείας'],
+            ['midw',        'Μαιευτικής'],
+            ['nurs',        'Νοσηλευτικής'],
+            ['phys',        'Φυσικοθεραπείας'],
+
+            # ΣΧΟΛΗ ΕΦΑΡΜΟΣΜΕΝΩΝ ΤΕΧΝΩΝ & ΠΟΛΙΤΙΣΜΟΥ
+            ['gd',          'Γραφιστικής και Οπτικής Επικοινωνίας'],
+            ['ia',          'Εσωτερικής Αρχιτεκτονικής'],
+            ['cons',        'Συντήρησης Αρχαιοτήτων και Έργων Τέχνης'],
+            ['phaa',        'Φωτογραφίας και Οπτικοακουστικών Τεχνών'],
+
+            # ΣΧΟΛΗ ΜΗΧΑΝΙΚΩΝ
+            ['eee',         'Ηλεκτρολόγων και Ηλεκτρονικών Μηχανικών'],
+            ['bme',         'Μηχανικών Βιοϊατρικής'],
+            ['idpe',        'Μηχανικών Βιομηχανικής Σχεδίασης και Παραγωγής'],
+            ['ice',         'Μηχανικών Πληροφορικής και Υπολογιστών'],
+            ['geo',         'Μηχανικών Τοπογραφίας και Γεωπληροφορικής'],
+            ['mech',        'Μηχανολόγων Μηχανικών'],
+            ['na',          'Ναυπηγών Μηχανικών'],
+            ['civ',         'Πολιτικών Μηχανικών'],
+        ]
+
     def _get_available_urls(self):
         """Get all file directories within urls folder"""
         self.available_urls = []
@@ -68,18 +114,15 @@ class MyWindow(GuiWindow):
             pass
         files = os.listdir(directory)
         for file in files:
-            self._formed_name(file)
-            self.available_urls.append(directory + "\\" + file)
+            index = self._formed_name(file)
+            self.available_urls.insert(index, directory + "\\" + file)
 
     def _formed_name(self, name):
         """Create a formed name to display to the user for each url file"""
         # from "eee.spring.2022-2023"
         # to "Εαρινό εξάμηνο 2022-2023, Τμήμα Ηλεκτρολόγων και Ηλεκτρονικών Μηχανικών
-        translates = [
-            ['eee',     'Ηλεκτρολόγων και Ηλεκτρονικών Μηχανικών'],
-            ['ba',      'Διοίκησης Επιχειρήσεων'],
-            ['tourism',  'Διοίκησης Τουρισμού'],
-        ]
+        translates = self.translations
+
         part1 = name.find('.')
         part1 = name[:part1]
         for translate in translates:
@@ -100,6 +143,9 @@ class MyWindow(GuiWindow):
 
         output = f" {part2} εξάμηνο {part3}, Τμήμα {part1}"
         self.named_urls.append(output)
+        self.named_urls.sort()
+        # return the index of sorted output
+        return self.named_urls.index(output)
 
     def main(self):
         """Main method handling window events"""
