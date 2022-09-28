@@ -6,7 +6,7 @@
 
 ## Εγκατάσταση
 
-1. Εγκατάσταση του αρχείου [Scheduler.exe](https://github.com/VaggM/Scheduler)
+1. Εγκατάσταση του αρχείου [Scheduler.exe](https://github.com/VaggM/Scheduler/blob/main/Scheduler.exe)
 2. Τρέξιμο της εφαρμογής για εγκατάσταση των αρχείων σε κάποιο φάκελο
 
 
