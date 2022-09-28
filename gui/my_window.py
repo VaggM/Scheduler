@@ -62,6 +62,10 @@ class MyWindow(GuiWindow):
         self.available_urls = []
         self.named_urls = []
         directory = os.getcwd() + "\\urls"
+        try:
+            os.mkdir(directory)
+        except FileExistsError:
+            pass
         files = os.listdir(directory)
         for file in files:
             self._formed_name(file)

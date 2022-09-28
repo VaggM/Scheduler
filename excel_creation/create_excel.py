@@ -26,7 +26,11 @@ def create_excel_schedule(lessons):
     cldr.find_width_height()
     cldr.get_merge_cells()
 
-    working_dir = os.getcwd()
+    working_dir = os.getcwd() + '\\schedules'
+    try:
+        os.mkdir(working_dir)
+    except FileExistsError:
+        pass
     file_names = os.listdir(working_dir)
     i = 0
     while True:
@@ -37,7 +41,8 @@ def create_excel_schedule(lessons):
             break
 
     # Excel edit
-    workbook = xlsxwriter.Workbook(filename)
+    directory = working_dir + '\\' + filename
+    workbook = xlsxwriter.Workbook(directory)
     worksheet = workbook.add_worksheet()
 
     # Landscape orientation
