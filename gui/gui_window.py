@@ -34,14 +34,25 @@ class GuiWindow:
         """Add new listbox element to line stack"""
         self.stack.append(sg.Listbox(values=names, size=(60, 20), key=key, enable_events=True))
 
-    def new_browser(self):
-        """Add new browse button element to line stack"""
+    def new_browser_file(self):
+        """Add new file browse button element to line stack"""
         working_directory = os.getcwd() + "\\urls"
         self.stack.append(sg.FileBrowse(button_text='Αναζήτηση', initial_folder=working_directory))
 
-    def new_textfield(self, key, disabled=False):
+    def new_browser_folder(self):
+        """Add new folder browse button element to line stack"""
+        default_folder = os.getcwd()
+        self.stack.append(sg.FolderBrowse(button_text='Αναζήτηση', initial_folder=default_folder))
+
+    def new_textfield(self, text, key, disabled=False):
         """Add new textfield element to line stack"""
-        self.stack.append(sg.InputText(key=key, enable_events=True, disabled=disabled))
+        self.stack.append(sg.InputText(
+            default_text=text,
+            key=key,
+            enable_events=True,
+            disabled=disabled,
+            size=(60, 2)
+        ))
 
     def add_line(self):
         """Add a new line with all elements within the stack and reset stack"""
@@ -91,4 +102,4 @@ class GuiWindow:
 
     def create_window(self):
         """Create the main window"""
-        self.window = sg.Window(self.title, self.layout, size=(900, 550))
+        self.window = sg.Window(self.title, self.layout, size=(900, 600))

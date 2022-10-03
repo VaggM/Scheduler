@@ -3,7 +3,7 @@ from excel_creation.calendar_matrix import CalendarMatrix
 import os
 
 
-def create_excel_schedule(lessons):
+def create_excel_schedule(lessons, dest_folder):
     """Write all lessons info within an Excel schedule using an edited matrix for reference"""
     # Create a calendar instance
     cldr = CalendarMatrix()
@@ -27,18 +27,28 @@ def create_excel_schedule(lessons):
     cldr.get_merge_cells()
 
     working_dir = os.getcwd() + '\\schedules'
-    try:
-        os.mkdir(working_dir)
-    except FileExistsError:
-        pass
+    # if default folder
+    if dest_folder == working_dir:
+        try:
+            os.mkdir(working_dir)
+        except FileExistsError:
+            pass
+    else:
+        working_dir = dest_folder
+
+    # Check if folder has same filenames
     file_names = os.listdir(working_dir)
     i = 0
     while True:
         filename = f"Schedule({i}).xlsx"
         if filename in file_names:
             i += 1
+        elif filename == 'Schedule(0).xlsx':
+            filename = 'Schedule.xlsx'
+            break
         else:
             break
+    working_dir = dest_folder
 
     # Excel edit
     directory = working_dir + '\\' + filename

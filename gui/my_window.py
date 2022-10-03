@@ -52,6 +52,16 @@ class MyWindow(GuiWindow):
         self.new_text('')
         self.add_line()
 
+        self.current_folder = os.getcwd() + '\\schedules'
+        self.new_text('Φάκελος προορισμού:   ')
+        self.new_textfield(text=self.current_folder, key='folder', disabled=False)
+        self.new_browser_folder()
+        self.add_line()
+
+        # Add blank line
+        self.new_text('')
+        self.add_line()
+
         # Add excel creation button
         self.new_text("\t\t\t\t\t")
         self.new_button('Δημιουργία Excel', key='complete')
@@ -154,8 +164,15 @@ class MyWindow(GuiWindow):
             event, values = self.window.read()
             if event == sg.WIN_CLOSED or event == "Exit":
                 break
+            elif event == 'folder':
+                self.current_folder = values['folder']
+                self.text_update('folder', values['folder'])
             elif event == 'complete':
-                self._complete()
+                try:
+                    os.listdir(self.current_folder)
+                    self._complete()
+                except FileNotFoundError:
+                    sg.Popup('Δεν υπάρχει αυτός ο φάκελος!', font=(50, 15), title='Error')
             elif event == 'urls':
                 try:
                     formed_name = values['urls']
@@ -244,4 +261,4 @@ class MyWindow(GuiWindow):
                 ]
                 desired_lessons.append(info)
         # Send info to Excel creation
-        create_excel_schedule(desired_lessons)
+        create_excel_schedule(desired_lessons, self.current_folder)

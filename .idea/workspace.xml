@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="24428fa8-3149-40d7-bb6f-c9fce12926ad" name="Changes" comment="ignore venv" />
+    <list default="true" id="24428fa8-3149-40d7-bb6f-c9fce12926ad" name="Changes" comment="ignore venv">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/excel_creation/create_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel_creation/create_excel.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/gui_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/gui_window.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gui/my_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/my_window.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,13 +23,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/baggo/PycharmProjects/Scheduler/urls&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;PyConsoleConfigurable.Python Console&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/baggo/PycharmProjects/Scheduler/urls",
+    "settings.editor.selected.configurable": "PyConsoleConfigurable.Python Console"
   }
-}</component>
+}]]></component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
       <console-settings module-name="pythonProject4" is-module-sdk="true">
