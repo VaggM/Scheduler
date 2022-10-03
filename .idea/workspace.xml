@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="24428fa8-3149-40d7-bb6f-c9fce12926ad" name="Changes" comment="ignore venv">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/excel_creation/create_excel.py" beforeDir="false" afterPath="$PROJECT_DIR$/excel_creation/create_excel.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/gui_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/gui_window.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gui/my_window.py" beforeDir="false" afterPath="$PROJECT_DIR$/gui/my_window.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

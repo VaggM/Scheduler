@@ -169,7 +169,8 @@ class MyWindow(GuiWindow):
                 self.text_update('folder', values['folder'])
             elif event == 'complete':
                 try:
-                    os.listdir(self.current_folder)
+                    if self.current_folder != (os.getcwd() + '\\schedules'):
+                        os.listdir(self.current_folder)
                     self._complete()
                 except FileNotFoundError:
                     sg.Popup('Δεν υπάρχει αυτός ο φάκελος!', font=(50, 15), title='Error')
