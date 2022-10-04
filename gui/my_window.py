@@ -3,7 +3,6 @@ import os
 import xlsxwriter.exceptions
 
 from gui.gui_window import GuiWindow
-from gui.urls_update import urls_update
 from html_info.html_explore import get_html_lessons
 from html_info.lesson import get_course_name
 from excel_creation.create_excel import create_excel_schedule
@@ -32,8 +31,8 @@ class MyWindow(GuiWindow):
         self.new_text('Διαθέσιμα προγράμματα: \t')
         self._get_available_urls()
         self.new_combo_list(self.named_urls, key='urls')
-        self.new_text('   ')
-        self.new_button('Ενημέρωση\nπρογραμμάτων', key='update', size=(12, 2))
+        # self.new_text('   ')
+        # self.new_button('Ενημέρωση\nπρογραμμάτων', key='update', size=(12, 2))
         self.add_line()
 
         # Add blank line
@@ -170,10 +169,6 @@ class MyWindow(GuiWindow):
             elif event == 'folder':
                 self.current_folder = values['folder']
                 self.text_update('folder', values['folder'])
-            elif event == 'update':
-                self._update_urls()
-                self._get_available_urls()
-                self.window['urls'].Update(values=self.named_urls)
             elif event == 'complete':
                 try:
                     if self.current_folder != (os.getcwd() + '\\schedules'):
@@ -197,16 +192,6 @@ class MyWindow(GuiWindow):
                 self._list2_remove(values['list2'])
 
         self.window.close()
-
-    def _update_urls(self):
-        """Update urls folder based on github urls folder"""
-        directory = os.getcwd() + "\\urls"
-        files = os.listdir(directory)
-        try:
-            urls_update(files)
-            sg.Popup('Ο φάκελος προγραμμάτων είναι ενημερωμένος!', font=(50, 15), title='Update')
-        except ConnectionError:
-            sg.Popup('Δεν υπάρχει σύνδεση στο διαδίκτυο!', font=(50, 15), title='Error')
 
     def _explore_file(self, filename):
         """Get all lessons from the selected file"""

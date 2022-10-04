@@ -1,16 +1,13 @@
 import io
 
-from bs4 import BeautifulSoup
 from html_info.lesson import Lesson
 
 
 def get_html_lessons(filename):
     """Returns all lessons found in events area of the html"""
     # Get html text
-    with io.open(filename, mode="r", encoding="windows-1253") as fp:
-        soup = BeautifulSoup(fp, "html.parser")
-
-    text = soup.get_text()
+    with io.open(filename, mode="r", encoding="utf-8") as fp:
+        text = fp.read()
 
     # Find events area in html file
     # Starting string
