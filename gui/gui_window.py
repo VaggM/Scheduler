@@ -22,8 +22,9 @@ class GuiWindow:
         """Add new button element to line stack"""
         self.stack.append(sg.Button(text, size=size, key=key, visible=visible))
 
-    def new_combo_list(self, texts, key):
-        self.stack.append(sg.Combo(texts, key=key, enable_events=True))
+    def new_combo_list(self, texts, key, size=(70, 1)):
+        """Add new combo list to line stack"""
+        self.stack.append(sg.Combo(texts, key=key, size=size, enable_events=True))
 
     def new_radio(self, text, key):
         """Add new radio button element to line stack"""
@@ -102,4 +103,4 @@ class GuiWindow:
 
     def create_window(self):
         """Create the main window"""
-        self.window = sg.Window(self.title, self.layout, size=(900, 600))
+        self.window = sg.Window(self.title, self.layout, size=(900, 650))
