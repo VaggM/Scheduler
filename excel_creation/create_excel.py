@@ -40,12 +40,14 @@ def create_excel_schedule(lessons, dest_folder):
     file_names = os.listdir(working_dir)
     i = 0
     while True:
-        filename = f"Schedule({i}).xlsx"
+        # Filename name
+        if i == 0:
+            filename = 'Schedule.xlsx'
+        else:
+            filename = f"Schedule({i}).xlsx"
+        # Increase or create
         if filename in file_names:
             i += 1
-        elif filename == 'Schedule(0).xlsx':
-            filename = 'Schedule.xlsx'
-            break
         else:
             break
     working_dir = dest_folder
@@ -88,7 +90,9 @@ def create_excel_schedule(lessons, dest_folder):
                 cell_format.set_bg_color(no_text)
             # Time
             elif i == 0 and row != cldr.calendar[0]:
-                row[i] = row[i] + ':00'
+                start = int(row[i])
+                end = start+1
+                row[i] = f"{start}:00 - {end}:00"
 
             # Write on Excel
             worksheet.write(cldr.calendar.index(row), i, row[i], cell_format)
