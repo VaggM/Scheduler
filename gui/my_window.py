@@ -4,8 +4,6 @@ import xlsxwriter.exceptions
 import json
 
 from gui.gui_window import GuiWindow
-from html_info.html_explore import get_html_lessons
-from html_info.lesson import get_course_name
 from excel_creation.create_excel import create_excel_schedule
 
 
