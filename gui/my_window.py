@@ -1,6 +1,7 @@
 import PySimpleGUI as sg
 import os
 import xlsxwriter.exceptions
+import json
 
 from gui.gui_window import GuiWindow
 from html_info.html_explore import get_html_lessons
@@ -195,15 +196,15 @@ class MyWindow(GuiWindow):
 
     def _explore_file(self, filename):
         """Get all lessons from the selected file"""
-        self.url_lessons = get_html_lessons(filename)
-        self.url_lessons.sort(key=get_course_name)
+        with open(filename, "r") as f:
+            self.url_lessons = json.load(f)
 
     def _list1_fill(self):
         """Find all unique lesson names and update list1, text1"""
         # Find all unique names
         self.lessons = []
         for lesson in self.url_lessons:
-            name = get_course_name(lesson)
+            name = lesson['course_name']
             if name not in self.lessons:
                 self.lessons.append(name)
         # Update list1, text1
@@ -249,18 +250,18 @@ class MyWindow(GuiWindow):
         # Get all lesson names
         lesson_names = []
         for les in self.url_lessons:
-            lesson_names.append(les.info['course_name'])
+            lesson_names.append(les['course_name'])
         # Add info on desired lessons
         desired_lessons = []
         for index, name in enumerate(lesson_names):
             if name in self.names:
                 info = [
-                    self.url_lessons[index].info['course_name'],
-                    self.url_lessons[index].info['professor'],
-                    self.url_lessons[index].info['area_name'],
-                    self.url_lessons[index].info['daysOfWeek'],
-                    self.url_lessons[index].info['startTime'],
-                    self.url_lessons[index].info['lasting'],
+                    self.url_lessons[index]['course_name'],
+                    self.url_lessons[index]['professor'],
+                    self.url_lessons[index]['area_name'],
+                    self.url_lessons[index]['daysOfWeek'],
+                    self.url_lessons[index]['startTime'],
+                    self.url_lessons[index]['lasting'],
                 ]
                 desired_lessons.append(info)
         # Send info to Excel creation
