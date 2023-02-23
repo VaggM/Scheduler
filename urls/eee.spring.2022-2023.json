@@ -1,0 +1,1222 @@
+[
+    {
+        "course_name": "\u0391\u039d\u0391\u039d\u0395\u038f\u03a3\u0399\u039c\u0395\u03a3 \u03a0\u0397\u0393\u0388\u03a3 \u0395\u039d\u0388\u03a1\u0393\u0395\u0399\u0391\u03a3 \u0399\u0399",
+        "professor": "\u0392\u03cc\u03ba\u03b1\u03c2 - \u03a8\u03c9\u03bc\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0392.116",
+        "startTime": "11:00:01",
+        "endTime": "14:00:00",
+        "daysOfWeek": 3,
+        "lasting": 3,
+        "id": 0
+    },
+    {
+        "course_name": "\u0391\u039d\u03a4\u0399\u039a\u0395\u0399\u039c\u0395\u039d\u039f\u03a3\u03a4\u03a1\u0391\u03a6\u0389\u03a3 \u03a0\u03a1\u039f\u0393\u03a1\u0391\u039c\u039c\u0391\u03a4\u0399\u03a3\u039c\u038c\u03a3 [1]",
+        "professor": "\u0391\u03b3\u03b3\u03b5\u03bb\u03ae",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "17:00:01",
+        "endTime": "20:00:00",
+        "daysOfWeek": 1,
+        "lasting": 3,
+        "id": 1
+    },
+    {
+        "course_name": "\u0391\u039d\u03a4\u0399\u039a\u0395\u0399\u039c\u0395\u039d\u039f\u03a3\u03a4\u03a1\u0391\u03a6\u0389\u03a3 \u03a0\u03a1\u039f\u0393\u03a1\u0391\u039c\u039c\u0391\u03a4\u0399\u03a3\u039c\u038c\u03a3 [2]",
+        "professor": "\u0391\u03b3\u03b3\u03b5\u03bb\u03ae",
+        "area_name": "\u0391.011",
+        "startTime": "13:00:01",
+        "endTime": "16:00:00",
+        "daysOfWeek": 1,
+        "lasting": 3,
+        "id": 2
+    },
+    {
+        "course_name": "\u0391\u039d\u03a4\u0399\u039a\u0395\u0399\u039c\u0395\u039d\u039f\u03a3\u03a4\u03a1\u0391\u03a6\u0389\u03a3 \u03a0\u03a1\u039f\u0393\u03a1\u0391\u039c\u039c\u0391\u03a4\u0399\u03a3\u039c\u038c\u03a3 [3]",
+        "professor": "\u03a0\u03b1\u03c4\u03c1\u03b9\u03ba\u03ac\u03ba\u03b7\u03c2 - \u03a6\u03b5\u03b9\u03b4\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u0392.226",
+        "startTime": "16:00:01",
+        "endTime": "19:00:00",
+        "daysOfWeek": 4,
+        "lasting": 3,
+        "id": 3
+    },
+    {
+        "course_name": "\u0391\u03a1\u0399\u0398\u039c\u0397\u03a4\u0399\u039a\u0389 \u0391\u039d\u0386\u039b\u03a5\u03a3\u0397",
+        "professor": "\u03a6\u03b1\u03bc\u03ad\u03bb\u03b7\u03c2",
+        "area_name": "\u0391.011",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 4
+    },
+    {
+        "course_name": "\u0391\u03a1\u03a7\u0388\u03a3 \u0398\u0395\u03a1\u039c\u039f\u0394\u03a5\u039d\u0391\u039c\u0399\u039a\u0389\u03a3 KAI \u039c\u0395\u03a4\u0386\u0394\u039f\u03a3\u0397\u03a3 \u0398\u0395\u03a1\u039c\u038c\u03a4\u0397\u03a4\u0391\u03a3",
+        "professor": "\u039a\u03b1\u03bb\u03ba\u03ac\u03bd\u03b7\u03c2",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "15:00:01",
+        "endTime": "18:00:00",
+        "daysOfWeek": 1,
+        "lasting": 3,
+        "id": 5
+    },
+    {
+        "course_name": "\u0391\u03a1\u03a7\u0399\u03a4\u0395\u039a\u03a4\u039f\u039d\u0399\u039a\u0389 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u038f\u039d \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0386\u03a4\u03a9\u039d [1]",
+        "professor": "\u039a\u03b1\u03bb\u03c4\u03c3\u03ac\u03c2",
+        "area_name": "\u0391.\u0391\u039c\u03a6\u0399\u0398\u0395\u0391\u03a4\u03a1\u039f \u03a7\u0391\u03a4\u0396\u0397\u039d\u0399\u039a\u039f\u039b\u0391\u039f\u03a5",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 6
+    },
+    {
+        "course_name": "\u0391\u03a1\u03a7\u0399\u03a4\u0395\u039a\u03a4\u039f\u039d\u0399\u039a\u0389 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u038f\u039d \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0386\u03a4\u03a9\u039d [1]",
+        "professor": "\u039a\u03b1\u03bb\u03c4\u03c3\u03ac\u03c2",
+        "area_name": "\u0391.011",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 7
+    },
+    {
+        "course_name": "\u0391\u03a1\u03a7\u0399\u03a4\u0395\u039a\u03a4\u039f\u039d\u0399\u039a\u0389 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u038f\u039d \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0386\u03a4\u03a9\u039d [2]",
+        "professor": "\u03a1\u03b1\u03b3\u03ba\u03bf\u03cd\u03c3\u03b7",
+        "area_name": "\u0392.114",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 8
+    },
+    {
+        "course_name": "\u0391\u03a1\u03a7\u0399\u03a4\u0395\u039a\u03a4\u039f\u039d\u0399\u039a\u0389 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u038f\u039d \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0386\u03a4\u03a9\u039d [2]",
+        "professor": "\u03a1\u03b1\u03b3\u03ba\u03bf\u03cd\u03c3\u03b7",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 9
+    },
+    {
+        "course_name": "\u0392\u0386\u03a3\u0395\u0399\u03a3 \u0394\u0395\u0394\u039f\u039c\u0388\u039d\u03a9\u039d",
+        "professor": " ",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "16:00:01",
+        "endTime": "19:00:00",
+        "daysOfWeek": 5,
+        "lasting": 3,
+        "id": 10
+    },
+    {
+        "course_name": "\u0394\u038a\u039a\u03a4\u03a5\u0391 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u038f\u039d [1]",
+        "professor": "\u03a0\u03b1\u03c4\u03c1\u03b9\u03ba\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u0391.\u0391\u039c\u03a6\u0399\u0398\u0395\u0391\u03a4\u03a1\u039f \u03a7\u0391\u03a4\u0396\u0397\u039d\u0399\u039a\u039f\u039b\u0391\u039f\u03a5",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 11
+    },
+    {
+        "course_name": "\u0394\u038a\u039a\u03a4\u03a5\u0391 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u038f\u039d [1]",
+        "professor": "\u03a0\u03b1\u03c4\u03c1\u03b9\u03ba\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 12
+    },
+    {
+        "course_name": "\u0394\u038a\u039a\u03a4\u03a5\u0391 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u038f\u039d [2]",
+        "professor": "\u03a4\u03ac\u03c4\u03bb\u03b1\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 13
+    },
+    {
+        "course_name": "\u0394\u038a\u039a\u03a4\u03a5\u0391 \u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u038f\u039d [2]",
+        "professor": "\u03a4\u03ac\u03c4\u03bb\u03b1\u03c2",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 14
+    },
+    {
+        "course_name": "\u0394\u0399\u0391\u0394\u038a\u039a\u03a4\u03a5\u039f \u03a4\u03a9\u039d \u03a0\u03a1\u0391\u0393\u039c\u0386\u03a4\u03a9\u039d",
+        "professor": "\u039a\u03bf\u03c5\u03bb\u03bf\u03cd\u03c1\u03b1\u03c2",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "16:00:01",
+        "endTime": "18:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 15
+    },
+    {
+        "course_name": "\u0394\u0399\u0391\u0394\u038a\u039a\u03a4\u03a5\u039f \u03a4\u03a9\u039d \u03a0\u03a1\u0391\u0393\u039c\u0386\u03a4\u03a9\u039d",
+        "professor": "\u03a0\u03c5\u03c1\u03bf\u03bc\u03ac\u03bb\u03b7\u03c2",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "12:00:01",
+        "endTime": "14:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 16
+    },
+    {
+        "course_name": "\u0395\u0399\u0394\u0399\u039a\u0388\u03a3 \u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0388\u03a3 \u0395\u0393\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0386\u03a3\u0395\u0399\u03a3",
+        "professor": "\u039a\u03b1\u03bc\u03b9\u03bd\u03ac\u03c1\u03b7\u03c2",
+        "area_name": "\u0392.116",
+        "startTime": "09:00:01",
+        "endTime": "12:00:00",
+        "daysOfWeek": 2,
+        "lasting": 3,
+        "id": 17
+    },
+    {
+        "course_name": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0389 \u03a3\u03a4\u0391 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391 \u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0389\u03a3 \u0395\u039d\u0388\u03a1\u0393\u0395\u0399\u0391\u03a3",
+        "professor": "\u039b\u03b5\u03c9\u03bd\u03b9\u03b4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0391.215",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 18
+    },
+    {
+        "course_name": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0389 \u03a3\u03a4\u0391 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391 \u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0389\u03a3 \u0395\u039d\u0388\u03a1\u0393\u0395\u0399\u0391\u03a3 [1]",
+        "professor": "\u039c\u03b1\u03bd\u03bf\u03c5\u03c3\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u0391.\u0391\u039c\u03a6\u0399\u0398\u0395\u0391\u03a4\u03a1\u039f \u03a7\u0391\u03a4\u0396\u0397\u039d\u0399\u039a\u039f\u039b\u0391\u039f\u03a5",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 19
+    },
+    {
+        "course_name": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0389 \u03a3\u03a4\u0391 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391 \u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0389\u03a3 \u0395\u039d\u0388\u03a1\u0393\u0395\u0399\u0391\u03a3 [1]",
+        "professor": "\u039c\u03b1\u03bd\u03bf\u03c5\u03c3\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u0391.011",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 20
+    },
+    {
+        "course_name": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0389 \u03a3\u03a4\u0391 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391 \u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0389\u03a3 \u0395\u039d\u0388\u03a1\u0393\u0395\u0399\u0391\u03a3 [2]",
+        "professor": "\u039b\u03b5\u03c9\u03bd\u03b9\u03b4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0392.222",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 21
+    },
+    {
+        "course_name": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0389 \u03a3\u03a4\u0397 \u039a\u0392\u0391\u039d\u03a4\u0399\u039a\u0389 \u03a6\u03a5\u03a3\u0399\u039a\u0389",
+        "professor": "\u039c\u03bf\u03c5\u03c4\u03b6\u03bf\u03cd\u03c1\u03b7\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 22
+    },
+    {
+        "course_name": "\u0395\u0399\u03a3\u0391\u0393\u03a9\u0393\u0389 \u03a3\u03a4\u0397\u039d \u0395\u03a0\u0399\u03a7\u0395\u0399\u03a1\u0397\u03a3\u0399\u0391\u039a\u0389 \u0388\u03a1\u0395\u03a5\u039d\u0391",
+        "professor": "\u03a3\u03b1\u03c1\u03c1\u03ae",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 23
+    },
+    {
+        "course_name": "\u0395\u039d\u0388\u03a1\u0393\u0395\u0399\u0391 \u039a\u0391\u0399 \u03a0\u0395\u03a1\u0399\u0392\u0386\u039b\u039b\u039f\u039d",
+        "professor": "\u03c8\u03a9\u039c\u038c\u03a0\u039f\u03a5\u039b\u039f\u03c2",
+        "area_name": "\u0392.116",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 24
+    },
+    {
+        "course_name": "\u0395\u039d\u0395\u03a1\u0393\u0395\u0399\u0391\u039a\u0389 A\u039d\u0386\u039b\u03a5\u03a3\u0397 K\u03a4\u0397\u03a1\u038a\u03a9\u039d",
+        "professor": "\u039c\u03bf\u03c1\u03ce\u03bd\u03b7\u03c2",
+        "area_name": "\u0392.116",
+        "startTime": "15:00:01",
+        "endTime": "18:00:00",
+        "daysOfWeek": 2,
+        "lasting": 3,
+        "id": 25
+    },
+    {
+        "course_name": "\u0395\u03a0\u0395\u039e\u0395\u03a1\u0393\u0391\u03a3\u038a\u0391 \u0395\u0399\u039a\u038c\u039d\u0391\u03a3 \u039a\u0391\u0399 \u0391\u039d\u0391\u0393\u039d\u038f\u03a1\u0399\u03a3\u0397 \u03a0\u03a1\u039f\u03a4\u038e\u03a0\u03a9\u039d",
+        "professor": "\u0396\u03ce\u03b7\u03c2",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "15:00:01",
+        "endTime": "18:00:00",
+        "daysOfWeek": 2,
+        "lasting": 3,
+        "id": 26
+    },
+    {
+        "course_name": "\u0395\u03a5\u03a1\u03a5\u0396\u03a9\u039d\u0399\u039a\u0388\u03a3 \u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u038a\u0395\u03a3",
+        "professor": "\u0396\u03ad\u03c1\u03b2\u03b1\u03c2 - \u039a\u03b1\u03c1\u03b1\u03bc\u03c0\u03ad\u03c4\u03c3\u03bf\u03c2",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "18:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 1,
+        "lasting": 3,
+        "id": 27
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0391\u039a\u039f\u03a5\u03a3\u03a4\u0399\u039a\u0389 \u0399\u0399",
+        "professor": "\u03a0\u03bf\u03c4\u03b7\u03c1\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u0396.\u0392010",
+        "startTime": "12:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 2,
+        "lasting": 3,
+        "id": 28
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0386 \u039a\u03a5\u039a\u039b\u038f\u039c\u0391\u03a4\u0391 \u0399\u0399 [1]",
+        "professor": "\u03a4\u03c3\u03b5\u03ba\u03bf\u03cd\u03c1\u03b1\u03c2",
+        "area_name": "\u0392.114",
+        "startTime": "17:00:01",
+        "endTime": "20:00:00",
+        "daysOfWeek": 3,
+        "lasting": 3,
+        "id": 29
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0386 \u039a\u03a5\u039a\u039b\u038f\u039c\u0391\u03a4\u0391 \u0399\u0399 [1]",
+        "professor": "\u03a4\u03c3\u03b5\u03ba\u03bf\u03cd\u03c1\u03b1\u03c2",
+        "area_name": "\u0392.218",
+        "startTime": "12:00:01",
+        "endTime": "14:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 30
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0386 \u039a\u03a5\u039a\u039b\u038f\u039c\u0391\u03a4\u0391 \u0399\u0399 [2]",
+        "professor": "\u0392\u03b1\u03c3\u03b9\u03bb\u03b5\u03b9\u03ac\u03b4\u03b7\u03c2",
+        "area_name": "\u0391.\u0391\u039c\u03a6\u0399\u0398\u0395\u0391\u03a4\u03a1\u039f \u03a7\u0391\u03a4\u0396\u0397\u039d\u0399\u039a\u039f\u039b\u0391\u039f\u03a5",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 31
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0386 \u039a\u03a5\u039a\u039b\u038f\u039c\u0391\u03a4\u0391 \u0399\u0399 [2]",
+        "professor": "\u039c\u03b1\u03bd\u03bf\u03c5\u03c3\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u0392.218",
+        "startTime": "18:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 3,
+        "lasting": 3,
+        "id": 32
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0386 \u039a\u03a5\u039a\u039b\u038f\u039c\u0391\u03a4\u0391 \u0399\u0399 [2]",
+        "professor": "\u0392\u03b1\u03c3\u03b9\u03bb\u03b5\u03b9\u03ac\u03b4\u03b7\u03c2",
+        "area_name": "\u0392.226",
+        "startTime": "11:00:01",
+        "endTime": "14:00:00",
+        "daysOfWeek": 3,
+        "lasting": 3,
+        "id": 33
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0386 \u039a\u03a5\u039a\u039b\u038f\u039c\u0391\u03a4\u0391 \u0399\u0399 [3]",
+        "professor": "\u039c\u03b1\u03bd\u03bf\u03c5\u03c3\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u0392.222",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 34
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0388\u03a3 \u0395\u0393\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0386\u03a3\u0395\u0399\u03a3 [1]",
+        "professor": "\u039a\u03b1\u03bc\u03b9\u03bd\u03ac\u03c1\u03b7\u03c2",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "09:00:01",
+        "endTime": "12:00:00",
+        "daysOfWeek": 4,
+        "lasting": 3,
+        "id": 35
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0388\u03a3 \u0395\u0393\u039a\u0391\u03a4\u0391\u03a3\u03a4\u0386\u03a3\u0395\u0399\u03a3 [2]",
+        "professor": "\u039a\u03b1\u03bc\u03b9\u03bd\u03ac\u03c1\u03b7\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "09:00:01",
+        "endTime": "12:00:00",
+        "daysOfWeek": 3,
+        "lasting": 3,
+        "id": 36
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0388\u03a3 \u039c\u0395\u03a4\u03a1\u0389\u03a3\u0395\u0399\u03a3 [1]",
+        "professor": "\u03a8\u03c9\u03bc\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0392.226",
+        "startTime": "12:00:01",
+        "endTime": "14:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 37
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0388\u03a3 \u039c\u0395\u03a4\u03a1\u0389\u03a3\u0395\u0399\u03a3 [1]",
+        "professor": "\u03a8\u03c9\u03bc\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0392.226",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 38
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0388\u03a3 \u039c\u0395\u03a4\u03a1\u0389\u03a3\u0395\u0399\u03a3 [2]",
+        "professor": "\u0396\u03b1\u03c7\u03b1\u03c1\u03b9\u03ac\u03b4\u03bf\u03c5",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "12:00:01",
+        "endTime": "14:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 39
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0388\u03a3 \u039c\u0395\u03a4\u03a1\u0389\u03a3\u0395\u0399\u03a3 [2]",
+        "professor": "\u0396\u03b1\u03c7\u03b1\u03c1\u03b9\u03ac\u03b4\u03bf\u03c5",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "19:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 40
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0388\u03a3 \u039c\u0397\u03a7\u0391\u039d\u0388\u03a3 \u0399\u0399",
+        "professor": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ac\u03c2",
+        "area_name": "\u0392.116",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 41
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0388\u03a3 \u039c\u0397\u03a7\u0391\u039d\u0388\u03a3 \u0399\u0399",
+        "professor": "\u039a\u03b1\u03c1\u03b1\u03ca\u03c3\u03ac\u03c2",
+        "area_name": "\u0392.116",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 42
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0386 \u03a0\u0395\u0394\u038a\u0391 \u0399 [1]",
+        "professor": "\u0392\u03b1\u03c1\u03c3\u03ac\u03bc\u03b7\u03c2",
+        "area_name": "\u0392.114",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 43
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0386 \u03a0\u0395\u0394\u038a\u0391 \u0399 [1]",
+        "professor": "\u03a3\u03c4\u03b1\u03b8\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2 - \u03a3\u03b1\u03b2\u03b2\u03b1\u03ca\u03b4\u03b7\u03c2",
+        "area_name": "\u0392.218",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 44
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0386 \u03a0\u0395\u0394\u038a\u0391 \u0399 [2]",
+        "professor": "\u03a3\u03c4\u03b1\u03b8\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2 - \u03a3\u03b1\u03b2\u03b2\u03b1\u03ca\u03b4\u03b7\u03c2",
+        "area_name": "\u0392.114",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 45
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039c\u0391\u0393\u039d\u0397\u03a4\u0399\u039a\u0386 \u03a0\u0395\u0394\u038a\u0391 \u0399 [2]",
+        "professor": "\u03a3\u03c4\u03b1\u03b8\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 46
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0386 \u0399 [1]",
+        "professor": "\u0393\u03b1\u03bb\u03b1\u03c4\u03ac",
+        "area_name": "\u0392.218",
+        "startTime": "17:00:01",
+        "endTime": "20:00:00",
+        "daysOfWeek": 4,
+        "lasting": 3,
+        "id": 47
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0386 \u0399 [1]",
+        "professor": "\u0393\u03b1\u03bb\u03b1\u03c4\u03ac",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "14:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 1,
+        "lasting": 3,
+        "id": 48
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0386 \u0399 [2]",
+        "professor": "\u0393\u03bf\u03c5\u03c3\u03c4\u03bf\u03c5\u03c1\u03af\u03b4\u03b7\u03c2",
+        "area_name": "\u0392.218",
+        "startTime": "09:00:01",
+        "endTime": "12:00:00",
+        "daysOfWeek": 5,
+        "lasting": 3,
+        "id": 49
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0386 \u0399 [2]",
+        "professor": "\u0393\u03bf\u03c5\u03c3\u03c4\u03bf\u03c5\u03c1\u03af\u03b4\u03b7\u03c2",
+        "area_name": "\u0392.226",
+        "startTime": "09:00:01",
+        "endTime": "12:00:00",
+        "daysOfWeek": 2,
+        "lasting": 3,
+        "id": 50
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0386 \u0399 [3]",
+        "professor": "\u03a6\u03c9\u03c4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0391.\u0391\u039c\u03a6\u0399\u0398\u0395\u0391\u03a4\u03a1\u039f \u03a7\u0391\u03a4\u0396\u0397\u039d\u0399\u039a\u039f\u039b\u0391\u039f\u03a5",
+        "startTime": "11:00:01",
+        "endTime": "14:00:00",
+        "daysOfWeek": 2,
+        "lasting": 3,
+        "id": 51
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0386 \u0399 [3][",
+        "professor": "\u03a6\u03c9\u03c4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0392.222",
+        "startTime": "10:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 5,
+        "lasting": 3,
+        "id": 52
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0386 \u0399\u03a3\u03a7\u038e\u039f\u03a3 \u0399 [1]",
+        "professor": "\u0392\u03cc\u03ba\u03b1\u03c2",
+        "area_name": "\u0392.114",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 53
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0386 \u0399\u03a3\u03a7\u038e\u039f\u03a3 \u0399 [1]",
+        "professor": "\u0392\u03cc\u03ba\u03b1\u03c2",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 54
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0386 \u0399\u03a3\u03a7\u038e\u039f\u03a3 \u0399 [2]",
+        "professor": "\u0399\u03c9\u03b1\u03bd\u03bd\u03af\u03b4\u03b7\u03c2",
+        "area_name": "\u0392.218",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 55
+    },
+    {
+        "course_name": "\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0386 \u0399\u03a3\u03a7\u038e\u039f\u03a3 \u0399 [2]",
+        "professor": "\u0399\u03c9\u03b1\u03bd\u03bd\u03af\u03b4\u03b7\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 56
+    },
+    {
+        "course_name": "\u0399\u03a3\u03a4\u039f\u03a1\u038a\u0391 \u03a4\u0397\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u038a\u0391\u03a3",
+        "professor": "\u039a\u03b1\u03c1\u03b1\u03bc\u03c0\u03ac\u03c4\u03c3\u03bf\u03c2",
+        "area_name": "\u0392.226",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 57
+    },
+    {
+        "course_name": "\u039a\u0395\u03a1\u0391\u038a\u0395\u03a3",
+        "professor": "\u039c\u03c5\u03c4\u03b9\u03bb\u03b7\u03bd\u03b1\u03af\u03bf\u03c2",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "14:00:01",
+        "endTime": "16:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 58
+    },
+    {
+        "course_name": "\u039a\u0395\u03a1\u0391\u038a\u0395\u03a3",
+        "professor": "\u039c\u03c5\u03c4\u03b9\u03bb\u03b7\u03bd\u03b1\u03af\u03bf\u03c2",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 59
+    },
+    {
+        "course_name": "\u039b\u0395\u0399\u03a4\u039f\u03a5\u03a1\u0393\u0399\u039a\u0386 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391",
+        "professor": " ",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "12:00:01",
+        "endTime": "14:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 60
+    },
+    {
+        "course_name": "\u039b\u0395\u0399\u03a4\u039f\u03a5\u03a1\u0393\u0399\u039a\u0386 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391",
+        "professor": " ",
+        "area_name": "\u0396.\u0392010",
+        "startTime": "14:00:01",
+        "endTime": "16:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 61
+    },
+    {
+        "course_name": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0389 \u0391\u039d\u0386\u039b\u03a5\u03a3\u0397 \u0399\u0399 [1]",
+        "professor": "\u039c\u03b1\u03c4\u03b9\u03ac\u03b4\u03bf\u03c5",
+        "area_name": "\u0392.114",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 62
+    },
+    {
+        "course_name": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0389 \u0391\u039d\u0386\u039b\u03a5\u03a3\u0397 \u0399\u0399 [1]",
+        "professor": "\u039c\u03b1\u03c4\u03b9\u03ac\u03b4\u03bf\u03c5",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 63
+    },
+    {
+        "course_name": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0389 \u0391\u039d\u0386\u039b\u03a5\u03a3\u0397 \u0399\u0399 [2]",
+        "professor": "\u03a0\u03b1\u03c0\u03b1\u03b4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0392.114",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 64
+    },
+    {
+        "course_name": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0389 \u0391\u039d\u0386\u039b\u03a5\u03a3\u0397 \u0399\u0399 [2]",
+        "professor": "\u03a0\u03b1\u03c0\u03b1\u03b4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0392.218",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 65
+    },
+    {
+        "course_name": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0389 \u0391\u039d\u0386\u039b\u03a5\u03a3\u0397 \u0399\u0399 [3]",
+        "professor": "\u03a6\u03b1\u03bc\u03ad\u03bb\u03b7\u03c2",
+        "area_name": "\u0391.\u0391\u039c\u03a6\u0399\u0398\u0395\u0391\u03a4\u03a1\u039f \u03a7\u0391\u03a4\u0396\u0397\u039d\u0399\u039a\u039f\u039b\u0391\u039f\u03a5",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 66
+    },
+    {
+        "course_name": "\u039c\u0391\u0398\u0397\u039c\u0391\u03a4\u0399\u039a\u0389 \u0391\u039d\u0386\u039b\u03a5\u03a3\u0397 \u0399\u0399 [3]",
+        "professor": "\u03a6\u03b1\u03bc\u03ad\u03bb\u03b7\u03c2",
+        "area_name": "\u0391.\u0391\u039c\u03a6\u0399\u0398\u0395\u0391\u03a4\u03a1\u039f \u03a7\u0391\u03a4\u0396\u0397\u039d\u0399\u039a\u039f\u039b\u0391\u039f\u03a5",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 67
+    },
+    {
+        "course_name": "\u039c\u0399\u039a\u03a1\u039f\u039a\u03a5\u039c\u0391\u03a4\u0399\u039a\u0388\u03a3 \u0394\u0399\u0391\u03a4\u0386\u039e\u0395\u0399\u03a3",
+        "professor": "\u0392\u03bf\u03c5\u03b4\u03bf\u03cd\u03c1\u03b7\u03c2",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "09:00:01",
+        "endTime": "12:00:00",
+        "daysOfWeek": 2,
+        "lasting": 3,
+        "id": 68
+    },
+    {
+        "course_name": "\u039d\u0391\u039d\u039f\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0388\u03a3 \u0394\u0399\u0391\u03a4\u0386\u039e\u0395\u0399\u03a3",
+        "professor": "\u03a6\u03c9\u03c4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0391.214",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 69
+    },
+    {
+        "course_name": "\u039d\u0391\u039d\u039f\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0388\u03a3 \u0394\u0399\u0391\u03a4\u0386\u039e\u0395\u0399\u03a3",
+        "professor": "\u03a6\u03c9\u03c4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0392.222",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 70
+    },
+    {
+        "course_name": "\u039d\u0391\u039d\u039f\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0388\u03a3 \u0394\u0399\u0391\u03a4\u0386\u039e\u0395\u0399\u03a3",
+        "professor": "\u03a6\u03c9\u03c4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0396.\u0392010",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 71
+    },
+    {
+        "course_name": "\u039f\u03a0\u03a4\u0399\u039a\u0388\u03a3 \u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u038a\u0395\u03a3",
+        "professor": "\u03a3\u03c4\u03b1\u03b8\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "09:00:01",
+        "endTime": "12:00:00",
+        "daysOfWeek": 3,
+        "lasting": 3,
+        "id": 72
+    },
+    {
+        "course_name": "\u039f\u03a0\u03a4\u0399\u039a\u039f\u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0389",
+        "professor": "\u039c\u03bf\u03c5\u03c4\u03b6\u03bf\u03cd\u03c1\u03b7\u03c2 - \u03a3\u03af\u03bc\u03bf\u03c2",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "15:00:01",
+        "endTime": "18:00:00",
+        "daysOfWeek": 5,
+        "lasting": 3,
+        "id": 73
+    },
+    {
+        "course_name": "\u03a0\u0399\u0398\u0391\u039d\u038c\u03a4\u0397\u03a4\u0395\u03a3 \u039a\u0391\u0399 \u03a3\u03a4\u0391\u03a4\u0399\u03a3\u03a4\u0399\u039a\u0389 [1]",
+        "professor": "\u039a\u03b1\u03bb\u03cd\u03b2\u03b1\u03c2",
+        "area_name": "\u0391.\u0391\u039c\u03a6\u0399\u0398\u0395\u0391\u03a4\u03a1\u039f \u03a7\u0391\u03a4\u0396\u0397\u039d\u0399\u039a\u039f\u039b\u0391\u039f\u03a5",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 74
+    },
+    {
+        "course_name": "\u03a0\u0399\u0398\u0391\u039d\u038c\u03a4\u0397\u03a4\u0395\u03a3 \u039a\u0391\u0399 \u03a3\u03a4\u0391\u03a4\u0399\u03a3\u03a4\u0399\u039a\u0389 [1]",
+        "professor": "\u039a\u03b1\u03bb\u03cd\u03b2\u03b1\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "16:00:01",
+        "endTime": "18:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 75
+    },
+    {
+        "course_name": "\u03a0\u0399\u0398\u0391\u039d\u038c\u03a4\u0397\u03a4\u0395\u03a3 \u039a\u0391\u0399 \u03a3\u03a4\u0391\u03a4\u0399\u03a3\u03a4\u0399\u039a\u0389 [2]",
+        "professor": "\u03a7\u03c9\u03c1\u03b9\u03b1\u03bd\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0391.\u0391\u039c\u03a6\u0399\u0398\u0395\u0391\u03a4\u03a1\u039f \u03a7\u0391\u03a4\u0396\u0397\u039d\u0399\u039a\u039f\u039b\u0391\u039f\u03a5",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 76
+    },
+    {
+        "course_name": "\u03a0\u0399\u0398\u0391\u039d\u038c\u03a4\u0397\u03a4\u0395\u03a3 \u039a\u0391\u0399 \u03a3\u03a4\u0391\u03a4\u0399\u03a3\u03a4\u0399\u039a\u0389 [2]",
+        "professor": "\u03a7\u03c9\u03c1\u03b9\u03b1\u03bd\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0392.114",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 77
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u0394\u0399\u0391\u0394\u038a\u039a\u03a4\u03a5\u039f \u03a4\u03a9\u039d \u03a0\u03a1\u0391\u0393\u039c\u0386\u03a4\u03a9\u039d \u039a\u0391\u0399 \u0395\u03a5\u03a6\u03a5\u0389 \u03a0\u0395\u03a1\u0399\u0392\u0386\u039b\u039b\u039f\u039d\u03a4\u0391",
+        "professor": " ",
+        "area_name": "\u0391.109",
+        "startTime": "17:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 1,
+        "lasting": 4,
+        "id": 78
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u0394\u0399\u0391\u0394\u038a\u039a\u03a4\u03a5\u039f \u03a4\u03a9\u039d \u03a0\u03a1\u0391\u0393\u039c\u0386\u03a4\u03a9\u039d \u039a\u0391\u0399 \u0395\u03a5\u03a6\u03a5\u0389 \u03a0\u0395\u03a1\u0399\u0392\u0386\u039b\u039b\u039f\u039d\u03a4\u0391",
+        "professor": " ",
+        "area_name": "\u0391.109",
+        "startTime": "17:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 2,
+        "lasting": 4,
+        "id": 79
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u0394\u0399\u0391\u0394\u038a\u039a\u03a4\u03a5\u039f \u03a4\u03a9\u039d \u03a0\u03a1\u0391\u0393\u039c\u0386\u03a4\u03a9\u039d \u039a\u0391\u0399 \u0395\u03a5\u03a6\u03a5\u0389 \u03a0\u0395\u03a1\u0399\u0392\u0386\u039b\u039b\u039f\u039d\u03a4\u0391",
+        "professor": " ",
+        "area_name": "\u0391.109",
+        "startTime": "17:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 3,
+        "lasting": 4,
+        "id": 80
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u0394\u0399\u0391\u0394\u038a\u039a\u03a4\u03a5\u039f \u03a4\u03a9\u039d \u03a0\u03a1\u0391\u0393\u039c\u0386\u03a4\u03a9\u039d \u039a\u0391\u0399 \u0395\u03a5\u03a6\u03a5\u0389 \u03a0\u0395\u03a1\u0399\u0392\u0386\u039b\u039b\u039f\u039d\u03a4\u0391",
+        "professor": " ",
+        "area_name": "\u0391.109",
+        "startTime": "17:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 4,
+        "lasting": 4,
+        "id": 81
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u0394\u0399\u0391\u0394\u038a\u039a\u03a4\u03a5\u039f \u03a4\u03a9\u039d \u03a0\u03a1\u0391\u0393\u039c\u0386\u03a4\u03a9\u039d \u039a\u0391\u0399 \u0395\u03a5\u03a6\u03a5\u0389 \u03a0\u0395\u03a1\u0399\u0392\u0386\u039b\u039b\u039f\u039d\u03a4\u0391",
+        "professor": " ",
+        "area_name": "\u0391.109",
+        "startTime": "17:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 5,
+        "lasting": 4,
+        "id": 82
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u038a\u0395\u03a3 \u039a\u0391\u0399 \u0394\u038a\u039a\u03a4\u03a5\u0391 \u0394\u0395\u0394\u039f\u039c\u0388\u039d\u03a9\u039d",
+        "professor": " ",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "18:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 2,
+        "lasting": 3,
+        "id": 83
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u038a\u0395\u03a3 \u039a\u0391\u0399 \u0394\u038a\u039a\u03a4\u03a5\u0391 \u0394\u0395\u0394\u039f\u039c\u0388\u039d\u03a9\u039d",
+        "professor": " ",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "18:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 3,
+        "lasting": 3,
+        "id": 84
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u038a\u0395\u03a3 \u039a\u0391\u0399 \u0394\u038a\u039a\u03a4\u03a5\u0391 \u0394\u0395\u0394\u039f\u039c\u0388\u039d\u03a9\u039d",
+        "professor": " ",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "18:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 4,
+        "lasting": 3,
+        "id": 85
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u0395\u03a0\u0399\u039a\u039f\u0399\u039d\u03a9\u039d\u038a\u0395\u03a3 \u039a\u0391\u0399 \u0394\u038a\u039a\u03a4\u03a5\u0391 \u0394\u0395\u0394\u039f\u039c\u0388\u039d\u03a9\u039d",
+        "professor": " ",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "18:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 5,
+        "lasting": 3,
+        "id": 86
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0388\u03a3 \u039a\u0391\u0399 \u0397\u039b\u0395\u039a\u03a4\u03a1\u039f\u039d\u0399\u039a\u0388\u03a3 \u0395\u03a0\u0399\u03a3\u03a4\u0389\u039c\u0395\u03a3 \u039c\u0388\u03a3\u03a9 \u0388\u03a1\u0395\u03a5\u039d\u0391\u03a3",
+        "professor": " ",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "18:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 2,
+        "lasting": 3,
+        "id": 87
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u03a4\u0395\u03a7\u039d\u0397\u03a4\u0389 \u039d\u039f\u0397\u039c\u039f\u03a3\u038e\u039d\u0397 \u039a\u0391\u0399 \u0392\u0391\u0398\u0399\u0386 \u039c\u0386\u0398\u0397\u03a3\u0397",
+        "professor": " ",
+        "area_name": "\u0396.\u0392010",
+        "startTime": "17:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 1,
+        "lasting": 4,
+        "id": 88
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u03a4\u0395\u03a7\u039d\u0397\u03a4\u0389 \u039d\u039f\u0397\u039c\u039f\u03a3\u038e\u039d\u0397 \u039a\u0391\u0399 \u0392\u0391\u0398\u0399\u0386 \u039c\u0386\u0398\u0397\u03a3\u0397",
+        "professor": " ",
+        "area_name": "\u0396.\u0392010",
+        "startTime": "17:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 2,
+        "lasting": 4,
+        "id": 89
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u03a4\u0395\u03a7\u039d\u0397\u03a4\u0389 \u039d\u039f\u0397\u039c\u039f\u03a3\u038e\u039d\u0397 \u039a\u0391\u0399 \u0392\u0391\u0398\u0399\u0386 \u039c\u0386\u0398\u0397\u03a3\u0397",
+        "professor": " ",
+        "area_name": "\u0396.\u0392010",
+        "startTime": "17:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 3,
+        "lasting": 4,
+        "id": 90
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u03a4\u0395\u03a7\u039d\u0397\u03a4\u0389 \u039d\u039f\u0397\u039c\u039f\u03a3\u038e\u039d\u0397 \u039a\u0391\u0399 \u0392\u0391\u0398\u0399\u0386 \u039c\u0386\u0398\u0397\u03a3\u0397",
+        "professor": " ",
+        "area_name": "\u0396.\u0392010",
+        "startTime": "17:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 4,
+        "lasting": 4,
+        "id": 91
+    },
+    {
+        "course_name": "\u03a0\u039c\u03a3 \u03a4\u0395\u03a7\u039d\u0397\u03a4\u0389 \u039d\u039f\u0397\u039c\u039f\u03a3\u038e\u039d\u0397 \u039a\u0391\u0399 \u0392\u0391\u0398\u0399\u0386 \u039c\u0386\u0398\u0397\u03a3\u0397",
+        "professor": " ",
+        "area_name": "\u0396.\u0392010",
+        "startTime": "17:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 5,
+        "lasting": 4,
+        "id": 92
+    },
+    {
+        "course_name": "\u03a0\u03a1\u039f\u0393\u03a1\u0391\u039c\u039c\u0391\u03a4\u0399\u03a3\u039c\u038c\u03a3 \u0395\u039d\u03a3\u03a9\u039c\u0391\u03a4\u03a9\u039c\u0388\u039d\u03a9\u039d \u03a3\u03a5\u03a3\u03a4\u0397\u039c\u0386\u03a4\u03a9\u039d",
+        "professor": "\u039c\u03b5\u03c4\u03ac\u03c6\u03b1\u03c2",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "09:00:01",
+        "endTime": "12:00:00",
+        "daysOfWeek": 5,
+        "lasting": 3,
+        "id": 93
+    },
+    {
+        "course_name": "\u03a0\u03a1\u039f\u0397\u0393\u039c\u0388\u039d\u0391 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391 \u0391\u03a5\u03a4\u039f\u039c\u0386\u03a4\u039f\u03a5 \u0395\u039b\u0388\u0393\u03a7\u039f\u03a5",
+        "professor": "\u039c\u03b1\u03bb\u03b1\u03c4\u03ad\u03c3\u03c4\u03b1\u03c2",
+        "area_name": "\u0391.215",
+        "startTime": "12:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 4,
+        "lasting": 3,
+        "id": 94
+    },
+    {
+        "course_name": "\u03a0\u03a1\u039f\u0397\u0393\u039c\u0388\u039d\u0395\u03a3 \u0392\u0399\u039f\u039c\u0397\u03a7\u0391\u039d\u0399\u039a\u0388\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0388\u03a3 \u0399\u03a3\u03a7\u038e\u039f\u03a3",
+        "professor": "\u0399\u03c9\u03b1\u03bd\u03bd\u03af\u03b4\u03b7\u03c2",
+        "area_name": "\u0392.116",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 95
+    },
+    {
+        "course_name": "\u03a0\u03a1\u039f\u0397\u0393\u039c\u0388\u039d\u0395\u03a3 \u0392\u0399\u039f\u039c\u0397\u03a7\u0391\u039d\u0399\u039a\u0388\u03a3 \u0395\u03a6\u0391\u03a1\u039c\u039f\u0393\u0388\u03a3 \u0399\u03a3\u03a7\u038e\u039f\u03a3",
+        "professor": "\u0399\u03c9\u03b1\u03bd\u03bd\u03af\u03b4\u03b7\u03c2",
+        "area_name": "\u0392.116",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 96
+    },
+    {
+        "course_name": "\u03a1\u039f\u039c\u03a0\u039f\u03a4\u0399\u039a\u0389",
+        "professor": "\u039a\u03b1\u03bd\u03b4\u03c1\u03ae\u03c2",
+        "area_name": "\u0391.109",
+        "startTime": "14:00:01",
+        "endTime": "16:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 97
+    },
+    {
+        "course_name": "\u03a1\u039f\u039c\u03a0\u039f\u03a4\u0399\u039a\u0389",
+        "professor": "\u039a\u03b1\u03bd\u03b4\u03c1\u03ae\u03c2",
+        "area_name": "\u0391.109",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 98
+    },
+    {
+        "course_name": "\u03a3\u0389\u039c\u0391\u03a4\u0391 \u039a\u0391\u0399 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391 [1]",
+        "professor": "\u0396\u03ce\u03b7\u03c2",
+        "area_name": "\u0392.114",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 99
+    },
+    {
+        "course_name": "\u03a3\u0389\u039c\u0391\u03a4\u0391 \u039a\u0391\u0399 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391 [1]",
+        "professor": "\u0396\u03ce\u03b7\u03c2",
+        "area_name": "\u0392.218",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 100
+    },
+    {
+        "course_name": "\u03a3\u0389\u039c\u0391\u03a4\u0391 \u039a\u0391\u0399 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391 [2]",
+        "professor": "\u0396\u03ad\u03c1\u03b2\u03b1\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 101
+    },
+    {
+        "course_name": "\u03a3\u0389\u039c\u0391\u03a4\u0391 \u039a\u0391\u0399 \u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391 [2]",
+        "professor": "\u0396\u03ad\u03c1\u03b2\u03b1\u03c2",
+        "area_name": "\u0392.226",
+        "startTime": "14:00:01",
+        "endTime": "16:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 102
+    },
+    {
+        "course_name": "\u03a3\u03a4\u0391\u0398\u039c\u039f\u038a \u03a0\u0391\u03a1\u0391\u0393\u03a9\u0393\u0389\u03a3 \u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0389\u03a3 \u0395\u039d\u0388\u03a1\u0393\u0395\u0399\u0391\u03a3",
+        "professor": "\u03a4\u03c3\u03b5\u03ba\u03bf\u03cd\u03c1\u03b1\u03c2",
+        "area_name": "\u0391.215",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 103
+    },
+    {
+        "course_name": "\u03a3\u03a4\u0391\u0398\u039c\u039f\u038a \u03a0\u0391\u03a1\u0391\u0393\u03a9\u0393\u0389\u03a3 \u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0389\u03a3 \u0395\u039d\u0388\u03a1\u0393\u0395\u0399\u0391\u03a3",
+        "professor": "\u03a4\u03c3\u03b5\u03ba\u03bf\u03cd\u03c1\u03b1\u03c2",
+        "area_name": "\u0391.215",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 104
+    },
+    {
+        "course_name": "\u03a3\u03a4\u0391\u0398\u039c\u039f\u038a \u03a0\u0391\u03a1\u0391\u0393\u03a9\u0393\u0389\u03a3 \u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0389\u03a3 \u0395\u039d\u0388\u03a1\u0393\u0395\u0399\u0391\u03a3",
+        "professor": "\u03a4\u03c3\u03b5\u03ba\u03bf\u03cd\u03c1\u03b1\u03c2",
+        "area_name": "\u0392.226",
+        "startTime": "09:00:01",
+        "endTime": "11:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 105
+    },
+    {
+        "course_name": "\u03a3\u03a5\u03a3\u03a4\u0389\u039c\u0391\u03a4\u0391 \u0397\u039b\u0395\u039a\u03a4\u03a1\u0399\u039a\u0389\u03a3 \u0395\u039d\u0388\u03a1\u0393\u0395\u0399\u0391\u03a3 \u03a0\u039b\u039f\u038a\u03a9\u039d KAIKAI \u039b\u0399\u039c\u0388\u039d\u03a9\u039d",
+        "professor": "\u039b\u03b5\u03c9\u03bd\u03b9\u03b4\u03cc\u03c0\u03bf\u03c5\u03bb\u03bf\u03c2",
+        "area_name": "\u0391.215",
+        "startTime": "14:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 5,
+        "lasting": 3,
+        "id": 106
+    },
+    {
+        "course_name": "\u03a3\u03a7\u0395\u0394\u038a\u0391\u03a3\u0397 RF",
+        "professor": "\u0392\u03bf\u03c5\u03b4\u03bf\u03cd\u03c1\u03b7\u03c2",
+        "area_name": "\u0396.\u0392010",
+        "startTime": "09:00:01",
+        "endTime": "12:00:00",
+        "daysOfWeek": 4,
+        "lasting": 3,
+        "id": 107
+    },
+    {
+        "course_name": "\u03a3\u03a7\u0395\u0394\u038a\u0391\u03a3\u0397 \u039b\u039f\u0393\u0399\u039a\u038f\u039d \u039a\u03a5\u039a\u039b\u03a9\u039c\u0386\u03a4\u03a9\u039d [1]",
+        "professor": "\u039c\u03b5\u03c4\u03ac\u03c6\u03b1\u03c2",
+        "area_name": "\u0392.218",
+        "startTime": "14:00:01",
+        "endTime": "16:00:00",
+        "daysOfWeek": 5,
+        "lasting": 2,
+        "id": 108
+    },
+    {
+        "course_name": "\u03a3\u03a7\u0395\u0394\u038a\u0391\u03a3\u0397 \u039b\u039f\u0393\u0399\u039a\u038f\u039d \u039a\u03a5\u039a\u039b\u03a9\u039c\u0386\u03a4\u03a9\u039d [1]",
+        "professor": "\u039c\u03b5\u03c4\u03ac\u03c6\u03b1\u03c2",
+        "area_name": "\u0392.222",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 109
+    },
+    {
+        "course_name": "\u03a3\u03a7\u0395\u0394\u038a\u0391\u03a3\u0397 \u039b\u039f\u0393\u0399\u039a\u038f\u039d \u039a\u03a5\u039a\u039b\u03a9\u039c\u0386\u03a4\u03a9\u039d [2]",
+        "professor": "\u03a4\u03c3\u03b1\u03ba\u03b9\u03c1\u03af\u03b4\u03b7\u03c2",
+        "area_name": "\u0391.\u0391\u039c\u03a6\u0399\u0398\u0395\u0391\u03a4\u03a1\u039f \u03a7\u0391\u03a4\u0396\u0397\u039d\u0399\u039a\u039f\u039b\u0391\u039f\u03a5",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 110
+    },
+    {
+        "course_name": "\u03a3\u03a7\u0395\u0394\u038a\u0391\u03a3\u0397 \u039b\u039f\u0393\u0399\u039a\u038f\u039d \u039a\u03a5\u039a\u039b\u03a9\u039c\u0386\u03a4\u03a9\u039d [2]",
+        "professor": "\u03a4\u03c3\u03b1\u03ba\u03b9\u03c1\u03af\u03b4\u03b7\u03c2",
+        "area_name": "\u0392.222",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 111
+    },
+    {
+        "course_name": "\u03a3\u03a7\u0395\u0394\u038a\u0391\u03a3\u0397 \u039b\u039f\u0393\u0399\u039a\u038f\u039d \u039a\u03a5\u039a\u039b\u03a9\u039c\u0386\u03a4\u03a9\u039d [3]",
+        "professor": "\u039a\u03c5\u03c1\u03b9\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u0392.218",
+        "startTime": "11:00:01",
+        "endTime": "13:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 112
+    },
+    {
+        "course_name": "\u03a3\u03a7\u0395\u0394\u038a\u0391\u03a3\u0397 \u039b\u039f\u0393\u0399\u039a\u038f\u039d \u039a\u03a5\u039a\u039b\u03a9\u039c\u0386\u03a4\u03a9\u039d [3]",
+        "professor": "\u039a\u03c5\u03c1\u03b9\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u03a3\u0391.109\u0391.\u03a3\u03c5\u03bd\u03b5\u03b4\u03c1\u03b9\u03b1\u03ba\u03cc \u03ba\u03ad\u03bd\u03c4\u03c1\u03bf/\u0391\u03b9\u03b8\u03bf\u03c5\u03c3\u03b1 \u03a3\u03b5\u03bc\u03b9\u03bd\u03b1\u03c1\u03af\u03c9\u03bd",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 3,
+        "lasting": 2,
+        "id": 113
+    },
+    {
+        "course_name": "\u03a4\u0395\u03a7\u039d\u0399\u039a\u0389 \u039c\u0397\u03a7\u0391\u039d\u0399\u039a\u0389 [1]",
+        "professor": "\u039a\u03b1\u03bb\u03ba\u03ac\u03bd\u03b7\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 114
+    },
+    {
+        "course_name": "\u03a4\u0395\u03a7\u039d\u0399\u039a\u0389 \u039c\u0397\u03a7\u0391\u039d\u0399\u039a\u0389 [1]",
+        "professor": "\u039a\u03b1\u03bb\u03ba\u03ac\u03bd\u03b7\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "15:00:01",
+        "endTime": "17:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 115
+    },
+    {
+        "course_name": "\u03a4\u0395\u03a7\u039d\u0399\u039a\u0389 \u039c\u0397\u03a7\u0391\u039d\u0399\u039a\u0389 [2]",
+        "professor": "\u039a\u03b1\u03bb\u03ba\u03ac\u03bd\u03b7\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "17:00:01",
+        "endTime": "19:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 116
+    },
+    {
+        "course_name": "\u03a4\u0395\u03a7\u039d\u0399\u039a\u0389 \u039c\u0397\u03a7\u0391\u039d\u0399\u039a\u0389 [2]",
+        "professor": "\u039a\u03b1\u03bb\u03ba\u03ac\u03bd\u03b7\u03c2",
+        "area_name": "\u0396.\u0392001",
+        "startTime": "17:00:01",
+        "endTime": "19:00:00",
+        "daysOfWeek": 4,
+        "lasting": 2,
+        "id": 117
+    },
+    {
+        "course_name": "\u03a5\u03a0\u039f\u039b\u039f\u0393\u0399\u03a3\u03a4\u0399\u039a\u0389 \u039d\u039f\u0397\u039c\u039f\u03a3\u038e\u039d\u0397",
+        "professor": "\u0391\u03bb\u03b5\u03be\u03b1\u03bd\u03b4\u03c1\u03af\u03b4\u03b7\u03c2 - \u0396\u03ce\u03b7\u03c2",
+        "area_name": "\u0396.\u0392002",
+        "startTime": "12:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 3,
+        "lasting": 3,
+        "id": 118
+    },
+    {
+        "course_name": "\u03a5\u03a8\u0397\u039b\u0388\u03a3 \u03a4\u0386\u03a3\u0395\u0399\u03a3 \u0399\u0399",
+        "professor": "\u039c\u03bf\u03c1\u03ce\u03bd\u03b7\u03c2",
+        "area_name": "\u0392.116",
+        "startTime": "13:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 1,
+        "lasting": 2,
+        "id": 119
+    },
+    {
+        "course_name": "\u03a5\u03a8\u0397\u039b\u0388\u03a3 \u03a4\u0386\u03a3\u0395\u0399\u03a3 \u0399\u0399",
+        "professor": "\u039c\u03bf\u03c1\u03ce\u03bd\u03b7\u03c2",
+        "area_name": "\u0392.116",
+        "startTime": "12:00:01",
+        "endTime": "14:00:00",
+        "daysOfWeek": 2,
+        "lasting": 2,
+        "id": 120
+    },
+    {
+        "course_name": "\u03a8\u0397\u03a6\u0399\u0391\u039a\u0388\u03a3 \u03a4\u0395\u03a7\u039d\u039f\u039b\u039f\u0393\u038a\u0395\u03a3 \u0389\u03a7\u039f\u03a5 \u039a\u0391\u0399 \u03a6\u03a9\u039d\u0389\u03a3",
+        "professor": "\u039a\u03b1\u03c1\u03b1\u03bc\u03c0\u03ad\u03c4\u03c3\u03bf\u03c2 - \u03a4\u03ac\u03c4\u03bb\u03b1\u03c2",
+        "area_name": "\u0396.\u0392009",
+        "startTime": "12:00:01",
+        "endTime": "15:00:00",
+        "daysOfWeek": 3,
+        "lasting": 3,
+        "id": 121
+    }
+]
