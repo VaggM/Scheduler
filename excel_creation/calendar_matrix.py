@@ -103,7 +103,7 @@ class CalendarMatrix:
 
     def find_width_height(self):
         """Set width and height"""
-        self.column_width = 21
+        self.column_width = 23
         self.row_height = 38
 
     def get_merge_cells(self):
