@@ -341,23 +341,13 @@
     },
     {
         "course_name": "\u0397\u03bb\u03b5\u03ba\u03c4\u03c1\u03b9\u03ba\u03ac \u039a\u03c5\u03ba\u03bb\u03ce\u03bc\u03b1\u03c4\u03b1 \u0399\u0399 [2]",
-        "professor": "\u039c\u03b1\u03bd\u03bf\u03c5\u03c3\u03ac\u03ba\u03b7\u03c2",
-        "area_name": "\u0392.218",
-        "startTime": "18:00:01",
-        "endTime": "21:00:00",
-        "daysOfWeek": 3,
-        "lasting": 3,
-        "id": 34
-    },
-    {
-        "course_name": "\u0397\u03bb\u03b5\u03ba\u03c4\u03c1\u03b9\u03ba\u03ac \u039a\u03c5\u03ba\u03bb\u03ce\u03bc\u03b1\u03c4\u03b1 \u0399\u0399 [2]",
         "professor": "\u0392\u03b1\u03c3\u03b9\u03bb\u03b5\u03b9\u03ac\u03b4\u03b7\u03c2",
         "area_name": "\u0392.226",
         "startTime": "11:00:01",
         "endTime": "14:00:00",
         "daysOfWeek": 3,
         "lasting": 3,
-        "id": 35
+        "id": 34
     },
     {
         "course_name": "\u0397\u03bb\u03b5\u03ba\u03c4\u03c1\u03b9\u03ba\u03ac \u039a\u03c5\u03ba\u03bb\u03ce\u03bc\u03b1\u03c4\u03b1 \u0399\u0399 [3]",
@@ -367,6 +357,16 @@
         "endTime": "11:00:00",
         "daysOfWeek": 1,
         "lasting": 2,
+        "id": 35
+    },
+    {
+        "course_name": "\u0397\u03bb\u03b5\u03ba\u03c4\u03c1\u03b9\u03ba\u03ac \u039a\u03c5\u03ba\u03bb\u03ce\u03bc\u03b1\u03c4\u03b1 \u0399\u0399 [3]",
+        "professor": "\u039c\u03b1\u03bd\u03bf\u03c5\u03c3\u03ac\u03ba\u03b7\u03c2",
+        "area_name": "\u0392.218",
+        "startTime": "18:00:01",
+        "endTime": "21:00:00",
+        "daysOfWeek": 3,
+        "lasting": 3,
         "id": 36
     },
     {
